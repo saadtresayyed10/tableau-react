@@ -1,5 +1,11 @@
+import EmbedDashboard from "./_components/EmbedDashboard";
+
 const App = () => {
-  return <div></div>;
+  return (
+    <div>
+      <EmbedDashboard />
+    </div>
+  );
 };
 
 export default App;
