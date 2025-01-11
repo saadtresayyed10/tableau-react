@@ -3,7 +3,7 @@ import React, { useEffect, useRef } from "react";
 const TableauDashboard: React.FC = () => {
   const vizContainerRef = useRef<HTMLDivElement | null>(null);
   const url =
-    "https://public.tableau.com/views/Netflixtest_17042112994090/Dashboard1";
+    "https://public.tableau.com/views/McDonaldFinancialStatement/Dashboard1";
 
   useEffect(() => {
     const loadScript = async () => {
@@ -27,7 +27,7 @@ const TableauDashboard: React.FC = () => {
     <div
       ref={vizContainerRef}
       className="tableauPlaceholder"
-      style={{ position: "relative", width: "100%", height: "75vh" }}
+      style={{ position: "relative", width: "100%", height: "65vh" }}
     >
       <noscript>
         <a href="#">
